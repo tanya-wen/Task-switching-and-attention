@@ -371,9 +371,9 @@ const ts_attn = function () {
         document.querySelector(".content-display").innerHTML = `
                         <h3> Instructions </h3>
                         <div><p>You did not get 75% correct on the practice trials. Before moving forward, you must get 75% correct</p>
-                            <p>Reminder: On each trial you will be presented two shapes. Your task is to indicate whether the shapes are the same or different along one or two dimensions (e.g., color). Before each trial you will be presented a cue informing you the relevant dimension(s) for the upcoming display. The relevant dimensions will be highlighted in red. You will then be shown a display with two geometric figures.</p>
-                            <p> You will respond as quickly and as accurately as possible using the keyboard. You will press "Z" for yes (same) or "M" for no (different). Press start to redo the practice trials.</p>
-                            <div class="flex flex-row">
+                        <p>Reminder: On each trial you will be presented with a face, an object, and a scene. Your task will be to focus on the cued category and make the correct dimensional judgment. </p>
+                        <p> You will respond as quickly and as accurately as possible using the keyboard. You will press "Z" for YES or "M" for NO. Press start to redo the practice trials.</p>
+                        <div class="flex flex-row">
                             <a id="dyn-bttn" class="bttn b-right f6 link dim ph3 pv2 mb2 dib white bg-dark-gray" href="#0">START PRACTICE</a>
                         </div>
                         </div>
